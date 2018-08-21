@@ -1,6 +1,18 @@
 import unittest
-import average
+from average import AverageCalculator
+
+def analyze_text():
+    pass
 
 
-class BasicTest(unittest.TestCase):
-    pass average
+class TestCalc(unittest.TestCase):
+    """Tests for the minimal() function"""
+
+    def test_function_runs(self):
+        """Basic smoke test: does the function run"""
+        mode = average.AverageCalculator.mode
+        mode(self)
+
+
+if __name__ == "__main__":
+    unittest.main()

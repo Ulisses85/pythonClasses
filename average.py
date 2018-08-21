@@ -1,3 +1,4 @@
+
 class AverageCalculator(object):
 
     def __init__(self):
